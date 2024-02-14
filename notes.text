@@ -1,0 +1,15 @@
+type annotation: we tell typescript what type of value an variable/function will have
+type inference: typescript guess what kind of value an variable/function will have
+
+when type inference doesn't works:
+1. when many function doesn't explicity return variable with "any" type (ex: JSON.parse)
+2. when variable declaration/initialization happens at different lines of code
+3. variable whose type cant bbe refered
+
+tuples: array like data structure that contains property of an value
+
+class: blueprint to create object having fields & methods
+public: this methods that can be called anytime, anywhere
+private: this methods can only be accessed bby other methods in 'this' class
+protected: this methods can be accessed byb other methods in 'this' class or by other methods in clild class
+
